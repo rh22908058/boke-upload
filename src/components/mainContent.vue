@@ -41,16 +41,14 @@ export default {
     margin-top 50px
     display flex
     @media(max-width: 600px)
-      display block
+      flex-wrap wrap
     .content-wrapper
       flex 1
-      @media(max-width: 600px)
-        display block
     .right-wrapper
       flex 0 0 300px
       margin-left 50px
       @media(max-width: 600px)
-        display block
+        margin-left 0
   /*
   .main-content
     margin-top 50px
