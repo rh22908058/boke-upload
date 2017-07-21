@@ -32,7 +32,7 @@ export default {
       justify-content space-between
       flex-wrap wrap
       .left-wrapper
-        
+        display flex
         .title
           flex 0 0 545px
           font-size 36px
